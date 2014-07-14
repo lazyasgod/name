@@ -6,3 +6,4 @@ def fibo(n):
     print("Вычислил до " + str(n) + " = " + str(result))
     return result
 
+print (fibo(10))
