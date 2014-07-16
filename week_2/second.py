@@ -10,9 +10,9 @@ def prime(n):
 
 def max_prime(usrnum):
     if prime(usrnum) == True:
-        return usernum
+        return usrnum
     if usrnum >= 2:
-        for i in range(int(usrnum), 2): 
+        for i in range(sqrt(usrnum), 2): 
             if prime(i) == True and not usrnum % i == 0 :
                 x = i 
         return x
