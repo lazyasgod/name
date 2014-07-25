@@ -7,4 +7,4 @@ def is_number(x):
     else:
        return False
 
-print (is_number("asdf"))
+
